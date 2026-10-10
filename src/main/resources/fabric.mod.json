@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "stunslam",
+  "version": "${version}",
+  "name": "Stun Slam",
+  "description": "One keybind: swap to your axe, hit to break the shield, swap to your mace and smash.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.stunslam.StunSlamClient"] },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
